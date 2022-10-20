@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head>
+<title>demo for cs26</title>
+<style>body{background-image:url(wood2.jpg);}
+img{height:300px;width:300px;}
+div{border:5px solid goldenRod;height:500px;width:500px;background-image:url(blog1.jpg);
+position:absolute;animation-name:moving;animation-duration:4s;animation-delay:2s;animation-iteration-count:7;}
+@keyframes moving
+{
+0%{left:0px;top:0px;}
+25%{left:300px;top:0px;}
+50%{left:300px;top:300px;}
+75%{left:0px;top:300px;}
+100%{left:0px;top:0px;}}
+h1{color:black;background-color:goldenRod;width:500px; height:100px;margin-left:800px;padding-left:80px;padding-top:40px;}
+p{color:white;margin-left:800px;text-align:justify;font-size:30px;}
+
+#myanimation{border:5px solid goldenRod;margin-top:5px;margin-left:50px;height:300px;width:500px;background-image:url(swe3.jpg);-webkit-animation:myanimation 5s infinite;
+background-size:100% 100%;position:absolute;animation-name:myanimation;animation-duration:4s;animation-delay:2s;}
+@keyframes myanimation{15%{background-image:url(swe1.jpg);}
+45%{background-image:url(swe2.jpg);}100%{background-image:url(ca1.jpg);}}
+#myanimation:hover{-webkit-animation-play-state:paused;}
+</style>
+</head>
+<body><div>
+</div>
+<h1>Fresh Cook</h1>
+<p>One of the most popuar food blogs around is Budget Bytes.Run by Beth,who calls herself a meticulous budgeter,her food blog is full delicious that won't break the bank.
+<br> Every single one of her recipes is broken down perfectly,so you can see the exact cost,which is why it's so ideal for college students.<br>
+<br>It's obvious now why she calls herself a meticulous budgeter,her recipes are incredibly through.<br><br>She painstakingly includes the cost for every single individual ingredient,such as how much one egg will cost cub of flour.<br>
+She also includes the cost per meal and per serving,and each recipe provides all the nutritional information.<br>
+All of Fresh food's recipes on her blog are incredibly easy to follow because of the helpful step-by-step guides,and almost every meal is something delicious that a college student would love to eat.....
+
+
+</p>
+
+<div id="myanimation"></div>
+
+
+
+</body></html>

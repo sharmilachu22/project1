@@ -1,0 +1,12 @@
+<!doctype html>
+<html><head>
+<title>demo for cs26</title>
+<style>
+#myanimation{height:300px;width:500px;background-image:url(swe3.jpg);-webkit-animation:myanimation 5s infinite;background-size:100% 100%;position:absolute;animation-name:myanimation;animation-duration:4s;animation-delay:2s;}
+@keyframes myanimation{15%{background-image:url(swe1.jpg);}
+45%{background-image:url(swe2.jpg);}100%{background-image:url(ca1.jpg);}}
+#myanimation:hover{-webkit-animation-play-state:paused;}
+</style>
+</head><body>
+<div id="myanimation"></div>
+</body></html>
